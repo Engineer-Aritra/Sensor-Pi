@@ -21,8 +21,7 @@ To Do so – sudo gedit sensor-read.sh
 
 Executing the above command will open a new blank file in the GUI text editor ‘Gedit’. Copy the code, Paste it into this newly created blank file which is open in ‘Gedit’. Remove the first line and save the file, then exit from it.
 
-In a terminal window, change the permission of the file to be read, modified and executed by all users.
-To do so – sudo chmod 777 sensor-read.sh
+Change the file permissions.
 
 For the first run of the script, make sure you have an active internet connection that the RPi3 is connected to. Run the script.
 To Do so – ./sensor-read.sh
